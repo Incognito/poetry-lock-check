@@ -5,8 +5,10 @@ Check the integrity of a poetry.lock and pyproject.toml
 Designed to be easily used in CI pipelines.
 
 ```
+# verson lock of poetry is reccomended but not required
+
 pip install \
-    poetry==1.1.2 \ # verson lock of poetry is reccomended but not required
+    poetry==1.1.2 \
     poetry-lock-check==0.1.0
 
 python -m poetry_lock_check check-lock
