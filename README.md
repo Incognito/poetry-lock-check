@@ -9,7 +9,7 @@ pip install \
     poetry==1.1.2 \ # verson lock of poetry is reccomended but not required
     poetry-lock-check==0.1.0
 
-poetry-lock-check check-lock # exits code 1 when failing
+python -m poetry_lock_check check-lock
 ```
 
 # Why?
